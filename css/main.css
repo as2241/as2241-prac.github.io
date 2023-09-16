@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-family: 'Comic Mono', 'Arial', 'Sans-Serif';
 }
 
 h1 {
@@ -50,3 +51,32 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* If user prefers dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: white;
+    }
+
+    a {
+        color: #a6fff6;
+    }
+
+    p {
+        color: rgb(251, 250, 245)
+    }
+
+    nav a,
+    footer a {
+        color: rgb(251, 250, 245);
+    }
+}
+
+/* Comic Mono font */
+@font-face {
+    font-family: 'Comic Mono';
+    src: url('path-to-comic-mono.woff2') format('woff2'),
+         url('path-to-comic-mono.woff') format('woff');
+    /* You can add additional formats if needed */
+  }
