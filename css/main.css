@@ -6,7 +6,7 @@ body {
 
 h1 {
     font-size: 3em;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Comic Mono', 'Arial', 'Sans-Serif';
 }
 
 p {
@@ -22,7 +22,7 @@ footer {
 
 nav ul,
 footer ul {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Comic Mono', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -72,11 +72,3 @@ ul.posts li {
         color: rgb(251, 250, 245);
     }
 }
-
-/* Comic Mono font */
-@font-face {
-    font-family: 'Comic Mono';
-    src: url('path-to-comic-mono.woff2') format('woff2'),
-         url('path-to-comic-mono.woff') format('woff');
-    /* You can add additional formats if needed */
-  }
